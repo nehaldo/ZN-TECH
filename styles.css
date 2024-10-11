@@ -136,3 +136,486 @@ img {
     font-weight: 700;
     font-size: 16px;
 }
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0; 
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img{
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 8px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+.swiper-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.top-features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature img {
+    width: 24px;
+    height: 24px;
+}
+
+.hot-deals {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.hot-deals h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.product {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.swiper-slide {
+    flex-shrink: 0; 
+    width: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 175%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to center */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: add a background */
+    color: #fff; /* Optional: change arrow color */
+    border-radius: 50%; /* Make it circular */
+    padding: 10px; /* Increase clickable area */
+}
+
+.swiper-button-next {
+    right: 10px; /* Adjust as needed */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Adjust as needed */
+}
+
+#navbar ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background:#E3E6F3;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #088178;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.logo-search{
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.brand-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.brand-item {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.brand-item:hover {
+    transform: translateY(-5px);
+}
+.brand-item img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.brand-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 50px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .payment img{
+    margin: 10px 0 15px 0; 
+    width: 100%;
+}
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+#page-header.about-header{
+    background-image: url("img/about-background.png");
+    height: 200px;
+}
+#page-header div{
+    text-align: center;
+    padding-top: 20px;;
+}
+#page-header div p{
+    color: #f9f9f9;
+}
+#page-header div h2{
+    color: #f9f9f9;
+}
+
+#about-header img{
+    width: 40%;
+    height: auto;
+}
+
+#about-header{
+    display: flex;
+    align-items: center;   
+}
+#about-header div{
+    padding-left: 40px;
+}
+
+#about-video{
+    text-align: center;
+}
+#about-video .video{
+    width: 70%;
+    height: 70%;
+    margin: 30px auto 0 auto;
+}
+#about-video .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#contact-details img{
+    width: 40%;
+    height: auto;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+#contact-details div{
+    padding-right: 150px;
+}
+
+#contact-details .details{
+    width: 100%;
+}
+#contact-details .details span{
+    font-size: 24px;
+    padding-right: 50px;
+}
+#contact-details .details h2,
+#form-details form h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h2{
+    font-size: 52px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+    padding-left: 175px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+#form-details form span{
+    font-size: 12px;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start; 
+}
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
