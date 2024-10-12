@@ -21,10 +21,19 @@
         <section id="header">
             <div class="logo-search"
                 <a href="#"><img src="img/ZNlogo-nobg.png" class="logo" alt=""</a>
-                <form class="search-bar">
+                <!-- <form class="search-bar">
                     <input type="text" placeholder="Search for products..." id="search-input">
                     <button onclick="searchProducts()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form> -->
+
+
+                <form action="search_products.php" method="get">
+                  <input type="text" name="query" placeholder="Search for products...">
+                  <button type="submit">Search</button>
                 </form>
+
+
+                
             </div>
             <div>
                 <ul id="navbar">

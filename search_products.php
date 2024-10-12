@@ -25,10 +25,15 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 if (count($results) > 0) {
   echo "<h2>Search Results:</h2>";
   foreach ($results as $result) {
-    echo "<p>Product ID: " . $result['productID'] . "<br>Product Name: " . $result['name'] . "<br>Product Description: " . $result['description'] . "<br>Price: $" . $result['price'] . "<br>Stock Quantity: " . $result['stockQuantity'] . "</p>";
+    echo "<p>Product Name: " . $result['name'] . "<br>Product Description: " . $result['description']  . "</p>";
   }
 } else {
   echo "<p>No results found.</p>";
 }
 ?>
 
+<!-- Search form -->
+<form action="search_products.php" method="get">
+  <input type="text" name="query" placeholder="Search for products...">
+  <button type="submit">Search</button>
+</form>
