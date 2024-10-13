@@ -662,3 +662,10 @@ footer .copyright{
 .add-to-cart button:hover{
     background-color: #087580;
 }
+
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
