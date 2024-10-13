@@ -119,3 +119,6 @@ CALL AddProductToOrder (2, 2, 4);
 SELECT * FROM OrderProduct;
 SELECT * FROM Product;
 SELECT * FROM StockLog;
+
+
+

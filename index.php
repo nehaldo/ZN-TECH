@@ -19,12 +19,13 @@
     <body>
 
         <section id="header">
-            <div class="logo-search"
+            <div class="logo-search">
                 <a href="#"><img src="img/ZNlogo-nobg.png" class="logo" alt=""></a>
-                <form class="search-bar">
-                    <input type="text" placeholder="Search for products..." id="search-input">
-                    <button onclick="searchProducts()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form class="search-bar" action="search_products.php" method="get">
+                    <input type="text" name="query" placeholder="Search for products...">
+                    <button type="submit">Search</button>
                 </form>
+
             </div>
             <div>
                 <ul id="navbar">
@@ -66,10 +67,10 @@
                         </ul>
                     </li>
                    
-                    <li><a href="contact.html">Contact</a></li> 
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="contact.php">Contact</a></li> 
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="login.php"><i class="fa-solid fa-user"></i></a></li>
                 </ul>
             </div>
         </section>
