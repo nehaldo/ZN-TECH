@@ -117,6 +117,10 @@
                             <img src="img/apple-iphone-16-pro-max.jpg" alt="apple-iphone-16-pro-max">
                             <h3>iPhone 16 Pro Max 1TB</h3>
                             <p><span class="old-price">Rs 110,990</span> Rs 106,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -124,6 +128,10 @@
                             <img src="img/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg" alt="samsung-galaxy-s24-ultra-5g-sm-s928-stylus">
                             <h3>Samsung Galaxy S24 Ultra</h3>
                             <p><span class="old-price">Rs 69,990</span> Rs 66,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>>
                     </div>
                     <div class="swiper-slide">
@@ -131,6 +139,10 @@
                             <img src="img/honor-x60.jpg" alt="honor-x60">
                             <h3>Honor X60</h3>
                             <p><span class="old-price">Rs 28,990</span> Rs 25,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -138,6 +150,10 @@
                             <img src="img/google-pixel-9-pro-xl-.jpg" alt="google-pixel-9-pro-xl-">
                             <h3>Google Pixel 9</h3>
                             <p><span class="old-price">Rs 88,990</span> Rs 81,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -145,6 +161,10 @@
                             <img src="img/huawei-nova-12-ultra.jpg" alt="huawei-nova-12-ultra">
                             <h3>Huawei Nova 12 Ultra</h3>
                             <p><span class="old-price">Rs 45,990</span> Rs 40,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -152,6 +172,10 @@
                             <img src="img/xiaomi-redmi-note-14-pro-plus-5g.jpg" alt="xiaomi-redmi-note-14-pro-plus-5g>">
                             <h3>Xiami Redmi Note 14 Pro+</h3>
                             <p><span class="old-price">Rs 35,990</span> Rs 29,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -159,6 +183,10 @@
                             <img src="img/oneplus-12.jpg" alt="oneplus-12">
                             <h3>OnePlus 12</h3>
                             <p><span class="old-price">Rs 45,990</span> Rs 42,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -166,6 +194,10 @@
                             <img src="img/nothing-phone2_.jpg" alt="nothing-phone2_">
                             <h3>Nothing Phone(2)</h3>
                             <p><span class="old-price">Rs 27,990</span> Rs 22,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -173,6 +205,10 @@
                             <img src="img/asus-zenfone-11-ultra.jpg" alt="asus-zenfone-11-ultra">
                             <h3>Asus Zenfone 11 Ultra</h3>
                             <p><span class="old-price">Rs 65,990</span> Rs 62,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -180,6 +216,10 @@
                             <img src="img/oppo-a80.jpg" alt="oppo-a80">
                             <h3>Oppo A80</h3>
                             <p><span class="old-price">Rs 35,990</span> Rs 33,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -187,6 +227,10 @@
                             <img src="img/sony-xperia-1-vi.jpg" alt="sony-xperia-1-vi">
                             <h3>Sony Xperia 1 VI</h3>
                             <p><span class="old-price">Rs 55,990</span> Rs 53,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -194,6 +238,10 @@
                             <img src="img/realme-13-plus-5g.jpg" alt="realme-13-plus-5g">
                             <h3>Realme 13+ 5G</h3>
                             <p><span class="old-price">Rs 25,990</span> Rs 23,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -211,6 +259,10 @@
                             <img src="img/dell-inspiron-3520-i7-512gb.jpg" alt="dell-inspiron-3520-i7-512gb">
                             <h3>Dell Inspiron 3520 i7 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -218,6 +270,10 @@
                             <img src="img/hp-spectre-x360-i5.jpg" alt="hp-spectre-x360-i5">
                             <h3>HP Spectre X360 i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>>
                     </div>
                     <div class="swiper-slide">
@@ -225,6 +281,10 @@
                             <img src="img/asus-zenbook-s-i5.jpg" alt="asus-zenbook-s-i5">
                             <h3>Asus Zenbook S i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -232,6 +292,10 @@
                             <img src="img/lenovo-ideapad-s100-i5-512.jpg" alt="lenovo-ideapad-s100-i5-512">
                             <h3>Lenovo Ideapad S100 i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -239,6 +303,10 @@
                             <img src="img/huawei-matebook-d14-i3-256.jpg" alt="huawei-matebook-d14-i3-256">
                             <h3>Huawei Matebook D14 i3 256GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -246,6 +314,10 @@
                             <img src="img/lenovo-notebook-v15-i5-512.jpg" alt="lenovo-notebook-v15-i5-512">
                             <h3>Lenovo Notebook V15 i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -253,6 +325,10 @@
                             <img src="img/asus-rog-strix-i9-1tb.jpg" alt="asus-rog-strix-i9-1tb">
                             <h3>Asus ROG Strix i9 1TB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -260,6 +336,10 @@
                             <img src="img/huawei-matebook-d16-i5-512.jpg" alt="huawei-matebook-d16-i5-512">
                             <h3>Huawei Matebook D16 i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -267,6 +347,10 @@
                             <img src="img/asus-vivoboook-i5-512.jpg" alt="asus-vivoboook-i5-512">
                             <h3>Asus Vivobook i5 512GB</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -284,6 +368,10 @@
                             <img src="img/ps5-slim-1tb-digital.jpg" alt="ps5-slim-1tb-digital">
                             <h3>PS5 Slim 1TB Digital</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -291,6 +379,10 @@
                             <img src="img/xbox-series-x.png" alt="xbox-series-x">
                             <h3>XBOX Series X</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>>
                     </div>
                     <div class="swiper-slide">
@@ -298,6 +390,10 @@
                             <img src="img/nintendo-switch.avif" alt="nintendo-switch">
                             <h3>Nintendo Switch Blue + Red</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -305,6 +401,10 @@
                             <img src="img/xbox-series-s.jpg" alt="xbox-series-s">
                             <h3>XBOX Series S</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -312,6 +412,10 @@
                             <img src="img/ps5-controller-red.jpg" alt="ps5-controller-red">
                             <h3>PS5 PlayStation DualSense Wireless Controller</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -319,6 +423,10 @@
                             <img src="img/xbox-controller.jpg" alt="xbox-controller">
                             <h3>XBOX Core Wireless Controller</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -326,6 +434,10 @@
                             <img src="img/valve-steam-deck.jpg" alt="valve-steam-deck">
                             <h3>Valve Steam Deck</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -333,6 +445,10 @@
                             <img src="img/lenovo-legion-go.jpg" alt="lenovo-legion-go">
                             <h3>Lenovo Legion Go Handheld Game Console</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -340,6 +456,10 @@
                             <img src="img/asus-rog-ally-7-120hz.jpg" alt="asus-rog-ally-7-120hz">
                             <h3>Asus ROG Ally 7"</h3>
                             <p><span class="old-price">Rs 95,990</span> Rs 89,990</p>
+                            <form action="add_to_cart.php" method="POST" class="add-to-cart">
+                                <input type="hidden" name="product_id" value="1">
+                                <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -348,53 +468,7 @@
             </div>
         </section>
 
-        <footer class="section-p1">
-            <div class="col">
-                <img class="logo" src="img/ZNlogo-nobg.png" alt="">
-                <h4>Contact</h4>
-                <p><strong>Address: </strong>Reduit, Mauritius</p>
-                <p><strong>Phone: </strong>+230-5708-4622</p>
-                <p><strong>Hours: </strong>24/7 online service</p>
-                <div class="follow">
-                    <h4>Follow us</h4>
-                    <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-pinterest-p"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col"> 
-                <h4>About</h4>
-                <a href="#">About us</a>
-                <a href="#">Delivery Information</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
-            </div>
-
-            <div class="col"> 
-                <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View Cart</a>
-                <a href="#">My wishlist</a>
-                <a href="#">Track my order</a>
-                <a href="#">Help</a>
-            </div>
-
-            <div class="payment">
-                <h4>Secured Payment Gateways</h4>
-                <img src="img/payment-removebg-preview.png" alt="">
-            </div>
-
-            <div class="copyright">
-                <p>© 2024 ZN Tech</p>
-            </div>
-
-        </footer>
+        <?php include 'footer.php'; ?>
         
         
         <script>

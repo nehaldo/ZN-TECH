@@ -619,3 +619,46 @@ footer .copyright{
     font-weight: 600;
     color: #000;
 }
+
+/*add to cart hover*/
+.product {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.product:hover{
+    transform: translateY(-5px);
+}
+
+.add-to-cart {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product:hover .add-to-cart{
+    display: block;
+}
+
+.add-to-cart button{
+    background-color: #088178;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.add-to-cart button:hover{
+    background-color: #087580;
+}
