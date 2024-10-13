@@ -1,34 +1,66 @@
-<?php
-// Connect to the database
-try {
-    $pdo = new PDO('mysql:host=localhost;dbname=zntech', 'root', '');
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo 'Connection failed: ' . $e->getMessage();
-}
+-- Create database
+CREATE DATABASE IF NOT EXISTS zntech;
+USE zntech;
 
-// Get the search query from the URL
-$query = '';
-if (isset($_GET['query'])) {
-    $query = $_GET['query'];
-}
+-- create tables
+CREATE TABLE User (
+	userID INT AUTO_INCREMENT PRIMARY KEY,
+    firstName VARCHAR(50) NOT NULL,
+    lastName VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    category ENUM('customer', 'admin') NOT NULL
+);
 
-// Prepare and execute the SQL query
-$stmt = $pdo->prepare("SELECT * FROM Product WHERE name LIKE :query OR description LIKE :query");
-$stmt->bindValue(':query', '%' . $query . '%');
-$stmt->execute();
+CREATE TABLE Product (
+	productID INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT,
+    price DECIMAL(10, 2) NOT NULL,    -- DECIMAL(precision, scale) precision->total no of digits, scale->no of digits after decimal point
+    stockQuantity INT NOT NULL
+);
 
-// Get the results
-$results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+CREATE TABLE `Order` (		-- backsticks ``` are used to escape identifiers
+	orderID INT AUTO_INCREMENT PRIMARY KEY,
+    orderDate DATE NOT NULL,
+    status ENUM('pending', 'shipped', 'delivered', 'cancelled') NOT NULL,
+	userID INT,
+    FOREIGN KEY (userID) REFERENCES User(userID)
+);
 
-// Display the results
-if (count($results) > 0) {
-  echo "<h2>Search Results:</h2>";
-  foreach ($results as $result) {
-    echo "<p>Product ID: " . $result['productID'] . "<br>Product Name: " . $result['name'] . "<br>Product Description: " . $result['description'] . "<br>Price: $" . $result['price'] . "<br>Stock Quantity: " . $result['stockQuantity'] . "</p>";
-  }
-} else {
-  echo "<p>No results found.</p>";
-}
-?>
+CREATE TABLE Delivery (
+	deliveryID INT AUTO_INCREMENT PRIMARY KEY,
+    deliveryAddress VARCHAR(255) NOT NULL,
+    deliveryStatus ENUM('pending', 'ongoing', 'delivered') NOT NULL,
+    deliveryDate DATE,
+    orderID INT,
+    FOREIGN KEY (orderID) REFERENCES `Order`(orderID)
+);
 
+CREATE TABLE OrderProduct (
+	orderProductID INT AUTO_INCREMENT PRIMARY KEY,
+    quantity INT NOT NULL,
+    orderID INT,
+    productID INT,
+    FOREIGN KEY (orderID) REFERENCES `Order`(orderID),
+    FOREIGN KEY (productID) REFERENCES Product(productID)
+);
+
+CREATE TABLE Review (
+	reviewID INT AUTO_INCREMENT PRIMARY KEY,
+    reviewDate DATE NOT NULL,
+    rating INT CHECK(rating >=1 AND rating <=5),
+    comment TEXT,
+    productID INT,
+    FOREIGN KEY (productID) REFERENCES Product(productID)
+);
+	
+CREATE TABLE StockLog (
+    logID INT AUTO_INCREMENT PRIMARY KEY,
+    productID INT,
+    oldStock INT,
+    newStock INT,
+    changeDate TIMESTAMP,
+    FOREIGN KEY (productID) REFERENCES Product(productID)
+);
+    
