@@ -1,8 +1,24 @@
-<!-- Search form -->
-<form action="search_products.php" method="get">
-  <input type="text" name="query" placeholder="Search for products...">
-  <button type="submit">Search</button>
-</form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="styles.css">
+    <body>
+      
+   
+        <div class="logo-search">
+                <form class="search-bar" action="search_products.php" method="get">
+                    <input type="text" name="query" placeholder="Search for products...">
+                    <button type="submit">Search</button>
+                </form>
+
+            </div>
+            </body>
+            </html>
+
+
+
 
 <?php
 // Connect to the database
