@@ -64,12 +64,66 @@ if (count($results) > 0) {
         echo "<input type='hidden' name='productID' value='" . $result['productID'] . "'>";
         echo "<input type='submit' name='submit_review' value='Submit Review'>";
         echo "</form>";
+        echo "<form action='buy_now.php' method='post'>";
+
+        echo "<form action='' method='post'>";
+        echo "<input type='hidden' name='productID' value='" . $result['productID'] . "'>";
+        echo "<input type='submit' name='buy_now' value='Buy Now'>";
+        echo "</form>";
+        
     }
 } else {
     echo "<p>No results found.</p>";
 }
 
+// search_products.php
+
+// ...
+
+
+
+// ...
+
+if (isset($_POST['buy_now'])) {
+  $productID = $_POST['productID'];
+
+  // Check if the user is logged in
+  if (!isset($_SESSION['userID'])) {
+    echo "You must be logged in to buy products.";
+    exit;
+  }
+
+  // Get the user's ID
+  $userID = $_SESSION['userID'];
+
+  // Create a new order
+  $stmt = $pdo->prepare("INSERT INTO `Order` (userID, orderDate) VALUES (:userID, NOW())");
+  $stmt->bindParam(':userID', $userID);
+  $stmt->execute();
+  $orderID = $pdo->lastInsertId();
+
+  // Add the product to the order
+  $stmt = $pdo->prepare("INSERT INTO OrderProduct (orderID, productID, quantity) VALUES (:orderID, :productID, 1)");
+  $stmt->bindParam(':orderID', $orderID);
+  $stmt->bindParam(':productID', $productID);
+  $stmt->execute();
+
+  // Redirect to order confirmation page
+  header('Location: order_confirmation.php');
+  exit;
+}
+
+
+
 if (isset($_POST['submit_review'])) {
+
+
+  if (!isset($_SESSION['userID'])) {
+    echo "You must be logged in to submit a review.";
+    exit;
+}
+
+
     $productID = $_POST['productID'];
     $rating = $_POST['rating'];
     $comment = $_POST['comment'];
